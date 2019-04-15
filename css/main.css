@@ -1,3 +1,7 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
 #main-box {
     display: flex;
     flex-direction: column;
@@ -7,26 +11,33 @@
 }
 
 #counter-box {
-    width: 18rem;
+    width: 20rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 #count {
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
-#add-box, #counter, #sub-box {
-    width: 4rem;
-    height: 4rem;
+#counter {
+    width: 8rem;
+    height: 4.5rem;
     border-radius: 5px;
     font-size: 2rem;
- }
+    border: 3px solid #bababa;
+    text-align: center;
+}
 
 #add-box, #sub-box {
-    background-color: #777;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5px;
+    font-size: 2rem;
+    background-color: #bababa;
     display: flex;
     align-items: center;
     justify-content: center;
+    color: white;  
 }
